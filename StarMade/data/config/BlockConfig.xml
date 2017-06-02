@@ -40387,6 +40387,65 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
+<Block icon="694" name="Wall Panel Type 1" textureId="556, 556, 556, 556, 556, 556" type="CUSTOM_ID_021">
+<Consistence/>
+<CubatomConsistence/>
+<Price>50</Price>
+<Description>A sturdy structural material. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
+<BlockResourceType>2</BlockResourceType>
+<ProducedInFactory>3</ProducedInFactory>
+<BasicResourceFactory>0</BasicResourceFactory>
+<FactoryBakeTime>5.0</FactoryBakeTime>
+<Animated>false</Animated>
+<Armour>0.0</Armour>
+<ArmorHPContribution>0</ArmorHPContribution>
+<StructureHPContribution>10</StructureHPContribution>
+<Transparency>false</Transparency>
+<InShop>true</InShop>
+<Orientation>false</Orientation>
+<Slab>0</Slab>
+<SlabReference>0</SlabReference>
+<Enterable>false</Enterable>
+<Mass>0.01</Mass>
+<Volume>0.01</Volume>
+<Hitpoints>75</Hitpoints>
+<Placable>true</Placable>
+<InRecipe>true</InRecipe>
+<CanActivate>false</CanActivate>
+<IndividualSides>6</IndividualSides>
+<SideTexturesPointToOrientation>true</SideTexturesPointToOrientation>
+<HasActivationTexture>false</HasActivationTexture>
+<MainCombinationController>false</MainCombinationController>
+<SupportCombinationController>false</SupportCombinationController>
+<EffectCombinationController>false</EffectCombinationController>
+<Physical>true</Physical>
+<BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+<LightSource>false</LightSource>
+<Door>false</Door>
+<SensorInput>false</SensorInput>
+<Deprecated>false</Deprecated>
+<CubatomCompound>
+<Cubatom>
+<mass>negative</mass>
+<spinning>base_spin</spinning>
+<thermal>liquid</thermal>
+<conductivity>insulator</conductivity>
+</Cubatom>
+<Cubatom>
+<mass>light</mass>
+<spinning>anti_spin</spinning>
+<thermal>solid</thermal>
+<conductivity>insulator</conductivity>
+</Cubatom>
+</CubatomCompound>
+<ResourceInjection>0<!--off--></ResourceInjection>
+<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+<ExtendedTexture4x4>false</ExtendedTexture4x4>
+<OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+<LodShapeFromFar>0</LodShapeFromFar>
+<LowHpSetting>false</LowHpSetting>
+</Block>
 </Decoration>
 <Block icon="0" name="Gravity Unit" textureId="288, 289, 290, 290, 290, 290" type="GRAVITY_ID">
 <Consistence>
@@ -40524,10 +40583,10 @@
 <Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>RAIL_BLOCK_BASIC</Element>
-<Element>RAIL_BLOCK_DOCKER</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
+<Element>RAIL_BLOCK_DOCKER</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -40537,10 +40596,10 @@
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>SHOP_BLOCK_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
-<Element>ACTIVAION_BLOCK_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>ACTIVAION_BLOCK_ID</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <Price>100</Price>
 <Description>The Storage block functions like a persistent, dynamic inventory. This enables the user to store items from their inventory in it. You can expand its volume size by linking it to Cargo Space blocks. Press $ACTIVATE to access. Storage blocks can also act as filters, and can be linked to; Salvage systems, Logic blocks and Factories. This makes them quite useful in various automated setups. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
@@ -40612,8 +40671,8 @@
 <Element>SHIPYARD_COMPUTER</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
 <Element>SHOP_BLOCK_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Price>100</Price>
 <Description>Cargo Space blocks are used to expand the volume of a chest, this allows you to store more blocks in it. \n\r&#13;You have to link the Storage block to the Cargo Space blocks.</Description>
@@ -44666,8 +44725,8 @@
 <Element>JUMP_DRIVE_CONTROLLER</Element>
 <Element>CLOAKING_ID</Element>
 <Element>THRUSTER_ID</Element>
-<Element>PULSE_CONTROLLER_ID</Element>
 <Element>RADAR_JAMMING_ID</Element>
+<Element>PULSE_CONTROLLER_ID</Element>
 </Controlling>
 <FullName>StarShip Core</FullName>
 <Price>1000</Price>
@@ -45190,8 +45249,8 @@
 <Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -45199,9 +45258,9 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Capsule Refinery</FullName>
 <Price>200</Price>
@@ -45272,8 +45331,8 @@
 <Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -45281,9 +45340,9 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Micro Assembler</FullName>
 <Price>100</Price>
@@ -45354,8 +45413,8 @@
 <Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -45363,9 +45422,9 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Macro Assembler</FullName>
 <Price>100</Price>
@@ -45436,8 +45495,8 @@
 <Element>FACTORY_POWER_BLOCK_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -45445,9 +45504,9 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <FullName>Power Module Factory</FullName>
 <Price>300</Price>
@@ -45519,8 +45578,8 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
 </ControlledBy>
 <Controlling>
 <Element>FACTORY_SD1000</Element>
@@ -45528,9 +45587,9 @@
 <Element>FACTORY_INPUT_ENH_ID</Element>
 <Element>FACTORY_POWER_CELL_ID</Element>
 <Element>FACTORY_POWER_COIL_ID</Element>
-<Element>CARGO_SPACE</Element>
-<Element>FACTORY_INPUT_ID</Element>
 <Element>STASH_ELEMENT</Element>
+<Element>FACTORY_INPUT_ID</Element>
+<Element>CARGO_SPACE</Element>
 </Controlling>
 <Price>750</Price>
 <Description>Manufactures advanced blocks from a variety of resources. Press $ACTIVATE to Open/Close the Factory's Internal Inventory. (Used for placing the necessary materials for recipes.) -Structural Stats- $ARMOUR% Armor $HP HP</Description>
