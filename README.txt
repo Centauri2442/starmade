@@ -11,5 +11,5 @@ Changelog - 6/4/17
 - Added Birch Wood Planks
 - Added Oak Wood + Planks variant
 
-- Fixed occasionally error on bootup
+- Fixed occasional error on bootup
 - Sorted mod blocks into own category at bottom of menu
