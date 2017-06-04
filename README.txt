@@ -2,7 +2,14 @@ Thank you for installing the mod! Feel free to distribute this, as long as this 
 
 To install, just drag and drop the StarMade folder into the StarMade directory that holds the launcher, replacing any previous files!
 
-This is V0.1
+This is V0.15 - 6/4/17
 
-Changelog
--None
+Changelog - 6/4/17
+
+- Added Bloodwood + Planks variant
+- Added Greywood + Planks variant
+- Added Birch Wood Planks
+- Added Oak Wood + Planks variant
+
+- Fixed occasionally error on bootup
+- Sorted mod blocks into own category at bottom of menu
