@@ -1587,8 +1587,8 @@
 <LowHpSetting>false</LowHpSetting>
 </Block>
 				</Oak>
-				<Greywood>
-<Block icon="153" name="Greywood" textureId="1817, 1817, 1817, 1817, 1817, 1817" type="CUSTOM_ID_033">
+				<DeadWood>
+<Block icon="153" name="Dead Wood" textureId="1817, 1817, 1817, 1817, 1817, 1817" type="CUSTOM_ID_033">
 <Consistence/>
 <CubatomConsistence/>
 <Price>1</Price>
@@ -1647,7 +1647,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-<Block icon="153" name="Greywood Planks" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_035">
+<Block icon="153" name="Dead Wood Planks" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_035">
 <Consistence/>
 <CubatomConsistence/>
 <Price>1</Price>
@@ -1707,7 +1707,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-<Block icon="153" name="Greywood Planks Wedge" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_036">
+<Block icon="153" name="Dead Wood Planks Wedge" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_036">
 <Consistence/>
 <CubatomConsistence/>
 <Price>50</Price>
@@ -1767,7 +1767,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-<Block icon="153" name="Greywood Planks Corner" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_037">
+<Block icon="153" name="Dead Wood Planks Corner" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_037">
 <Consistence/>
 <CubatomConsistence/>
 <Price>50</Price>
@@ -1827,7 +1827,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-<Block icon="153" name="Greywood Planks Hepta" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_038">
+<Block icon="153" name="Dead Wood Planks Hepta" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_038">
 <Consistence/>
 <CubatomConsistence/>
 <Price>50</Price>
@@ -1887,7 +1887,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-<Block icon="153" name="Greywood Planks Tetra" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_039">
+<Block icon="153" name="Dead Wood Planks Tetra" textureId="1801, 1801, 1801, 1801, 1801, 18010" type="CUSTOM_ID_039">
 <Consistence/>
 <CubatomConsistence/>
 <Price>50</Price>
@@ -1947,7 +1947,7 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</Greywood>
+				</DeadWood>
 				<Bloodwood>
 <Block icon="153" name="Bloodwood" textureId="1815, 1815, 1815, 1815, 1815, 1815" type="CUSTOM_ID_040">
 <Consistence/>

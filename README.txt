@@ -7,7 +7,7 @@ This is V0.15 - 6/4/17
 Changelog - 6/4/17
 
 - Added Bloodwood + Planks variant
-- Added Greywood + Planks variant
+- Added Dead Wood + Planks variant
 - Added Birch Wood Planks
 - Added Oak Wood + Planks variant
 
