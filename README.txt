@@ -2,7 +2,7 @@ Thank you for installing the mod! Feel free to distribute this, as long as this 
 
 To install, just drag and drop the StarMade folder into the StarMade directory that holds the launcher, replacing any previous files!
 
-This is V0.15 - 6/4/17
+This is V0.151 - 6/12/17
 
 Changelog - 6/4/17
 
@@ -13,3 +13,12 @@ Changelog - 6/4/17
 
 - Fixed occasional error on bootup
 - Sorted mod blocks into own category at bottom of menu
+
+
+Changelog - 6/12/17
+
+- Added Dead Foliage
+- Added Pink Foliage 1
+- Added Pink Foliage 2
+- Added Ghastly Foliage
+- Added Bloodwood Foliage
