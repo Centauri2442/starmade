@@ -31,7 +31,7 @@
 <InShop>true</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<StyleIds>1809, 1810, 1811</StyleIds>
+<StyleIds>1809, 1810, 1811, 1826</StyleIds>
 <SlabReference>0</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.025</Mass>
@@ -64,6 +64,65 @@
 <spinning>null_spin</spinning>
 <thermal>gas</thermal>
 <conductivity>draining</conductivity>
+</Cubatom>
+</CubatomCompound>
+<ResourceInjection>0<!--off--></ResourceInjection>
+<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+<ExtendedTexture4x4>false</ExtendedTexture4x4>
+<OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+<LodShapeFromFar>0</LodShapeFromFar>
+<LowHpSetting>false</LowHpSetting>
+</Block>
+<Block icon="155" name="Water Wedge" textureId="619, 619, 619, 619, 619, 619" type="CUSTOM_ID_034">
+<Consistence/>
+<CubatomConsistence/>
+<Price>50</Price>
+<Description>Water. It's cool and fresh. -Structural Stats- $ARMOUR% Armor $HP HP </Description>
+<BlockResourceType>2</BlockResourceType>
+<ProducedInFactory>0</ProducedInFactory>
+<BasicResourceFactory>0</BasicResourceFactory>
+<FactoryBakeTime>5.0</FactoryBakeTime>
+<Animated>true</Animated>
+<Armour>0.0</Armour>
+<ArmorHPContribution>50</ArmorHPContribution>
+<StructureHPContribution>5</StructureHPContribution>
+<Transparency>true</Transparency>
+<InShop>false</InShop>
+<Orientation>true</Orientation>
+<Slab>0</Slab>
+<SlabReference>86</SlabReference>
+<Enterable>false</Enterable>
+<Mass>0.05</Mass>
+<Volume>0.05</Volume>
+<Hitpoints>75</Hitpoints>
+<Placable>true</Placable>
+<InRecipe>false</InRecipe>
+<CanActivate>false</CanActivate>
+<IndividualSides>1</IndividualSides>
+<SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+<HasActivationTexture>false</HasActivationTexture>
+<MainCombinationController>false</MainCombinationController>
+<SupportCombinationController>false</SupportCombinationController>
+<EffectCombinationController>false</EffectCombinationController>
+<Physical>false</Physical>
+<BlockStyle>1<!--wedge: A wedged block--></BlockStyle>
+<LightSource>false</LightSource>
+<Door>false</Door>
+<SensorInput>false</SensorInput>
+<Deprecated>false</Deprecated>
+<CubatomCompound>
+<Cubatom>
+<mass>medium</mass>
+<spinning>null_spin</spinning>
+<thermal>gas</thermal>
+<conductivity>draining</conductivity>
+</Cubatom>
+<Cubatom>
+<mass>negative</mass>
+<spinning>base_spin</spinning>
+<thermal>liquid</thermal>
+<conductivity>conductive</conductivity>
 </Cubatom>
 </CubatomCompound>
 <ResourceInjection>0<!--off--></ResourceInjection>
@@ -503,9 +562,9 @@
 <LowHpSetting>false</LowHpSetting>
 </Block>
 			</General-Decoratives>
-			<Wood>
-				<Spruce>
-					<Block icon="153" name="Spruce Wood" textureId="1816, 1816, 1816, 1816, 1816, 1816" type="CUSTOM_ID_013">
+<Wood>
+<Spruce>
+<Block icon="153" name="Spruce Wood" textureId="1816, 1816, 1816, 1816, 1816, 1816" type="CUSTOM_ID_013">
 <Consistence/>
 <CubatomConsistence/>
 <Price>1</Price>
@@ -642,7 +701,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1792</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -702,7 +761,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1792</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -762,7 +821,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1792</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -822,7 +881,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1792</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -864,9 +923,9 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</Spruce>
-				<Birch>
-					<Block icon="153" name="Birch Wood" textureId="1820, 1820, 1820, 1820, 1820, 1820" type="CUSTOM_ID_007">
+</Spruce>
+<Birch>
+<Block icon="153" name="Birch Wood" textureId="1820, 1820, 1820, 1820, 1820, 1820" type="CUSTOM_ID_007">
 <Consistence/>
 <CubatomConsistence/>
 <Price>1</Price>
@@ -1003,7 +1062,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1814</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1063,7 +1122,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1814</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1123,7 +1182,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1814</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1183,7 +1242,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1814</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1225,8 +1284,8 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</Birch>
-				<Oak>
+</Birch>
+<Oak>
 <Block icon="153" name="Oak Wood" textureId="1819, 1819, 1819, 1819, 1819, 1819" type="CUSTOM_ID_032">
 <Consistence/>
 <CubatomConsistence/>
@@ -1364,7 +1423,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1819</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1424,7 +1483,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1819</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1484,7 +1543,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1819</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1544,7 +1603,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1819</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1586,8 +1645,8 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</Oak>
-				<DeadWood>
+</Oak>
+<DeadWood>
 <Block icon="153" name="Dead Wood" textureId="1817, 1817, 1817, 1817, 1817, 1817" type="CUSTOM_ID_033">
 <Consistence/>
 <CubatomConsistence/>
@@ -1725,7 +1784,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1827</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1785,7 +1844,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1827</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1845,7 +1904,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1827</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1905,7 +1964,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1827</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -1947,8 +2006,8 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</DeadWood>
-				<Bloodwood>
+</DeadWood>
+<Bloodwood>
 <Block icon="153" name="Bloodwood" textureId="1815, 1815, 1815, 1815, 1815, 1815" type="CUSTOM_ID_040">
 <Consistence/>
 <CubatomConsistence/>
@@ -2086,7 +2145,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1833</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -2146,7 +2205,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1833</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -2206,7 +2265,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1833</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -2266,7 +2325,7 @@
 <InShop>false</InShop>
 <Orientation>false</Orientation>
 <Slab>0</Slab>
-<SlabReference>598</SlabReference>
+<SlabReference>1833</SlabReference>
 <Enterable>false</Enterable>
 <Mass>0.05</Mass>
 <Volume>0.05</Volume>
@@ -2308,8 +2367,8 @@
 <LodShapeFromFar>0</LodShapeFromFar>
 <LowHpSetting>false</LowHpSetting>
 </Block>
-				</Bloodwood>
-			</Wood>
+</Bloodwood>
+</Wood>
 			<Tile>
 				<Block icon="540" name="Tile Floor" textureId="1866, 1866, 1866, 1866, 1866, 1866" type="CUSTOM_ID_008">
 <Consistence/>
