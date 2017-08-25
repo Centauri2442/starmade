@@ -10,6 +10,8 @@ Changelog - 8/24/17
 
 - Returned from StarMade hiatus (Mostly)
 
+<---------------------------------------------------------------------------------------->
+
 Changelog - 6/25/17
 
 -Added Water Wedge
