@@ -2,7 +2,13 @@ Thank you for installing the mod! Feel free to distribute this, as long as this 
 
 To install, just drag and drop the StarMade folder into the StarMade directory that holds the launcher, replacing any previous files!
 
-This is V0.16 - 6/25/17
+This is V0.161 - 8/24/17
+
+Changelog - 8/24/17
+
+- Updated to StarMade v199.654
+
+- Returned from StarMade hiatus (Mostly)
 
 Changelog - 6/25/17
 
